@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<checkstyle version="1.3.0">
+  <file name="Core/Errors/FeatureNotImplementedException.php"/>
+  <file name="helpers/xtra_functions.php"/>
+  <file name="Controllers/LoginController.php"/>
+  <file name="Logics/Common/XtraRegistration.php"/>
+  <file name="Core/XtraException.php"/>
+  <file name="Controllers/HomeController.php"/>
+  <file name="Logics/Auth/DefaultXtraAuthentication.php"/>
+  <file name="Core/XtraFrameworkProvider.php"/>
+  <file name="helpers/helpers.php"/>
+  <file name="Core/Errors/AuthenticationException.php"/>
+  <file name="Core/XtraFrameworkModuleProvider.php"/>
+  <file name="Controllers/RegisterController.php"/>
+  <file name="Logics/Common/DefaultXtraRegistration.php"/>
+  <file name="config/xtra-framework.php"/>
+  <file name="Core/Modular/MenuContext.php"/>
+  <file name="web/define.php"/>
+  <file name="Util/ValidatorUtil.php"/>
+  <file name="web/routes/common.php"/>
+  <file name="Core/Modular/Menu.php"/>
+  <file name="Logics/Auth/XtraAuthentication.php"/>
+  <file name="Core/FeatureImplementCheck.php"/>
+</checkstyle>

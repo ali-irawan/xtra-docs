@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="Xtra Framework Documentation" version="v2.9.0">
+  <partials/>
+  <file path="Core/Errors/FeatureNotImplementedException.php" generated-path="Core.Errors.FeatureNotImplementedException.html" hash="eaccd1db859ad8f85a79a9c35437232c" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:54 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="XtraException">\Xtra\Core\XtraException</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Core\Errors" line="19" package="Xtra\Core\Errors">
+      <extends>\Xtra\Core\XtraException</extends>
+      <name>FeatureNotImplementedException</name>
+      <full_name>\Xtra\Core\Errors\FeatureNotImplementedException</full_name>
+      <docblock line="19">
+        <description>Class FeatureNotImplementedException is used for determine type of exception if the feature is not implemented yet</description>
+        <long-description></long-description>
+        <tag name="author" line="19" description="Ali Irawan (boylevantz@gmail.com)"/>
+        <tag name="package" line="19" description="Xtra\Core\Errors"/>
+        <tag name="inherited_from" description="\Xtra\Core\XtraException" refers="\Xtra\Core\XtraException" link="/classes/Xtra.Core.XtraException.html"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="26" package="Xtra\Core\Errors">
+        <name>__construct</name>
+        <full_name>\Xtra\Core\Errors\FeatureNotImplementedException::__construct()</full_name>
+        <docblock line="26">
+          <description>FeatureNotImplementedException constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="26" description="" type="integer" variable="$code">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="26" description="" type="\Xtra\Core\Errors\Exception|null" variable="$previous">
+            <type>\Xtra\Core\Errors\Exception</type>
+            <type>null</type>
+          </tag>
+          <tag name="inherited_from" description="\Xtra\Core\XtraException::__construct()" refers="\Xtra\Core\XtraException::__construct()" link="/classes/Xtra.Core.XtraException.html#method___construct"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$code</name>
+          <default>100</default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$previous</name>
+          <default>null</default>
+          <type>\Xtra\Core\Errors\Exception|null</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="37" package="Xtra\Core\Errors">
+        <name>__toString</name>
+        <full_name>\Xtra\Core\Errors\FeatureNotImplementedException::__toString()</full_name>
+        <docblock line="37">
+          <description>Get the exception message</description>
+          <long-description></long-description>
+          <tag name="return" line="37" description="representation of the exception" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="inherited_from" description="\Xtra\Core\XtraException::__toString()" refers="\Xtra\Core\XtraException::__toString()" link="/classes/Xtra.Core.XtraException.html#method___toString"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="24" package="Xtra\Core">
+        <name>__construct</name>
+        <full_name>\Xtra\Core\XtraException::__construct()</full_name>
+        <docblock line="24">
+          <description>XtraException constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="24" description="" type="string" variable="$message">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="24" description="" type="integer" variable="$code">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="24" description="" type="\Xtra\Core\Exception|null" variable="$previous">
+            <type>\Xtra\Core\Exception</type>
+            <type>null</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$message</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$code</name>
+          <default>0</default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$previous</name>
+          <default>null</default>
+          <type>\Xtra\Core\Exception|null</type>
+        </argument>
+        <inherited_from>\Xtra\Core\XtraException</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="35" package="Xtra\Core">
+        <name>__toString</name>
+        <full_name>\Xtra\Core\XtraException::__toString()</full_name>
+        <docblock line="35">
+          <description>Get the exception message</description>
+          <long-description></long-description>
+          <tag name="return" line="35" description="representation of the exception" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <inherited_from>\Xtra\Core\XtraException</inherited_from>
+      </method>
+    </class>
+    <source>eJyNUm1r2zAQ/q5fcZRAk5DFLWwf5u4lJetGYSuFbDBYhlHscyJqvSDJab02/30nJbHTjtHKHyyd7p57nuf07qNZGZYMhwyGMLXIPRawaOB6ZWZeWzkO8R8ObQrnlYBLy2+5gv5CNxWuufJ/JkvJRTXOtRyE1E8EkMJpQt/bcP4uZDinb17D9TcKJIwpLtEZniP89JbPp9ri/MJabd0ZY6x2h/Gwu7jL0XihFV3viVbcOfhMbGuLV9pfSlOhREXk22wQDgisgFJbKNCjlUIh+MYg6BKwyyvBrxDKLVooU9qD6CChQR+6TnjtVwT2IiMmpPCGL/8VGU3IXyIA7zyqwsEjE9g9A1rRiLCGz6HkWjlv65ymOd6XEDnLJQjloZfrAp/E2+IHVVcV9IzFtdC126Ul8W/qRSVyKGuVxz5Z1nbqR1B4D6cnJ6MOrQOiq4A8gK2YKCgBpyVCpHMYlfwGwYXJ4Bpt41dCLcOQyECxVDQdY7VBWzVtEYkgD9L0kNHxzqXiP/M9Hm2dGHUkB2cRccOeGv4FfXwx3ROiB+1o1q2NFqmXAuodyFokSEeteEzW5ePqZ1z1ehZh+odu7Rpk2fTr+WyWZTCGoxR+3ffIHvfqQ1Cy+Z3C/rzjt5mro72ozV8zZUha</source>
+  </file>
+  <file path="helpers/xtra_functions.php" generated-path="helpers.xtra_functions.html" hash="8c87f8a85a482ecea30bbfdb28ecc96a" package="Default">
+    <docblock line="0">
+      <description>Common useful functions
+User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:54 PM</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <function namespace="" line="14" package="Default">
+      <name>xtra_assets</name>
+      <full_name>\xtra_assets()</full_name>
+      <docblock line="14">
+        <description>Access to xtra assets, such ass bootstrap css/js, etc.</description>
+        <long-description></long-description>
+        <tag name="package" line="14" description="Default"/>
+        <tag name="param" line="14" description="&lt;p&gt;asset file name&lt;/p&gt;" type="" variable="$filename"/>
+        <tag name="return" line="14" description="return public url path for the asset" type="string">
+          <type>string</type>
+        </tag>
+      </docblock>
+      <argument line="0" by_reference="false">
+        <name>$filename</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <source>eJxNjztPxDAQhPv8iimQ7i6CWEhQEJC4EzQUSBRQI8dyLkZ+ybvmKf47cRLg7OrzzM6Or67jECtR1xVq3ATngkcm3WeLPnvFJngq0hPp1GJnDe6SfJMe6y58WP0qPX9u904a26jgNsV6K1m3OBXjvSj8aFzh9vwMD/fjg6h+9+2U0kTggHdOEpJIMx2DshoKoAuBaVQiFJF4GSXNqimT2yiTdDjqjdVeOj3PoiAKT56kOSePMcH4PRaKubNGISeLKHlAHxJ4WAKmdn8fn1o9z63WB7s2+KpQzhK5EsV4MhvFCs2/97LC9w81b3E6</source>
+  </file>
+  <file path="Controllers/LoginController.php" generated-path="Controllers.LoginController.html" hash="45e5a3265525065b87d6a784b7423ca7" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 10:44 AM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Request">\Illuminate\Http\Request</namespace-alias>
+    <namespace-alias name="Controller">\Illuminate\Routing\Controller</namespace-alias>
+    <namespace-alias name="Validator">\Illuminate\Support\Facades\Validator</namespace-alias>
+    <namespace-alias name="XtraAuthentication">\Xtra\Logics\Auth\XtraAuthentication</namespace-alias>
+    <namespace-alias name="ValidatorUtil">\Xtra\Util\ValidatorUtil</namespace-alias>
+    <namespace-alias name="Auth">\Auth</namespace-alias>
+    <namespace-alias name="Log">\Log</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Controllers" line="23" package="Xtra\Controllers">
+      <extends>\Illuminate\Routing\Controller</extends>
+      <name>LoginController</name>
+      <full_name>\Xtra\Controllers\LoginController</full_name>
+      <docblock line="23">
+        <description>Handling login flow</description>
+        <long-description></long-description>
+        <tag name="package" line="23" description="Xtra\Controllers"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="29" package="Xtra\Controllers">
+        <name>index</name>
+        <full_name>\Xtra\Controllers\LoginController::index()</full_name>
+        <docblock line="29">
+          <description>Default route handler</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="38" package="Xtra\Controllers">
+        <name>doLogin</name>
+        <full_name>\Xtra\Controllers\LoginController::doLogin()</full_name>
+        <docblock line="38">
+          <description>Handling login request</description>
+          <long-description></long-description>
+          <tag name="param" line="38" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="38" description="" type="$this|\Illuminate\Config\Repository|mixed">
+            <type>\Xtra\Controllers\LoginController</type>
+            <type>\Illuminate\Config\Repository</type>
+            <type>mixed</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="72" package="Xtra\Controllers">
+        <name>logout</name>
+        <full_name>\Xtra\Controllers\LoginController::logout()</full_name>
+        <docblock line="72">
+          <description>Handling logout</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Xtra\Controllers" line="81" package="Xtra\Controllers">
+        <name>createValidator</name>
+        <full_name>\Xtra\Controllers\LoginController::createValidator()</full_name>
+        <docblock line="81">
+          <description>Create a validator for login process</description>
+          <long-description></long-description>
+          <tag name="param" line="81" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Xtra\Controllers" line="95" package="Xtra\Controllers">
+        <name>redirectTo</name>
+        <full_name>\Xtra\Controllers\LoginController::redirectTo()</full_name>
+        <docblock line="95">
+          <description>Redirection to home page configured in config</description>
+          <long-description></long-description>
+          <tag name="return" line="95" description="" type="\Illuminate\Config\Repository|mixed">
+            <type>\Illuminate\Config\Repository</type>
+            <type>mixed</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Xtra\Controllers" line="103" package="Xtra\Controllers">
+        <name>getAuthenticationHandler</name>
+        <full_name>\Xtra\Controllers\LoginController::getAuthenticationHandler()</full_name>
+        <docblock line="103">
+          <description>Get the authentication handler, the class must implements Xtra\Logics\Auth\XtraAuthentication</description>
+          <long-description></long-description>
+          <tag name="see" line="103" description="" link="\Xtra\Logics\Auth\XtraAuthentication"/>
+        </docblock>
+      </method>
+    </class>
+    <source>eJyVVm1v2zYQ/q5fcQMCWArseAX6ZUrj1kjTOkC7DK4zFJgKg5FomytFaiRlJ2vz33ukZL1WQaogiETeHe95nrtjXr3Odpk3PT314BQuFSWGJnD3AH/tsk9GqvTMrt9qqkKYcwbXihyIAP9OPnC6J8L8/2abEsbPYpkG1vQtBgjhxRR//rDfK5ba79/Dly9h/hFXpp4nSEp1RmIKn40i0aUURknOqdLnnpdrCtec5ykTGCpaGJNFS/pfTrU5724uZW6Y2DYi9Ew+5VkmlYnekZgkVEd/E84SgsgKS5fAB7llsY7mudlFdsG+UGFYTAyTomF4axivI9ivYtM6FG8YCjGUdC6ISDjmBxwPELDh8mCX3yD0r2TbR+/YiTnR2sZhot4Cem+oSDTUS943zwN83Fn2Qe7phuTcgEJaKOzs6WhXbE7d3yy/4yyGTS5iCw2YSOi9H3wrjPBR1ORKwJ7Rgz+6x/wm9jUMDU0zjnzqM4dlFJw7l8deDh3MqlDuuIvQFUmh1BNOutvl8Sdmx/T3qCEj4t6wLRZCJjVD7h++p+yeJk+CS6Rj0e+eFpTM2edkf1QTLopjJ7PYdUEls185Qom67bhWVFvWL6BVGWFYWtBrkeXGb3iMWxGrkGwDfi9sALU4DYEUTZiisfGd1v7682o5Xy9vbldX6w8376//DIKWl30mswMzuyulpNKNc4YMi6wbiB8brFHb85axEsdktqXGH7nlUZOlDIv5IFXStz3ujJoUTKdY+SQB7L+ygLjrzTqgW1271VoxDNju2UVR+830S8+C1TX2qlrLu3+RQhumEXUyI3Uo6pdYxzWUtmT+cNzfLkDknAdtAW2iYeic/OGkGok3VC/hHsVfyQF9HI1u5GDqutvcv1g7rbr5p1ctpehwMYPRlSsL5B4q3ROWgJAGUmLi3Wjccv/ys4Nadff0fMH0nxwAhUlzvFXky3ZtP5uZobSKmxMI1PNkg79FDWdKxlTr5w3BEopiexuwwtIbSl13GBxrlVMYpuQr9etGJJz7wRjaojYFtZbISNIRrm7eIasvzS45Vu++vnt/zuKy5N8CNhJ2MqVYSXhTxm7853gGXlnlV/fS+OXroktxs62gdyU+URuLm49Xw6Xxnho3z0hrQh2v57HbKy79NEcZGV60NEVD/Zx/TioSNKUQPd/hSIE0CAlZrUgYHqV9SqJ5lpU1BQUftksu1/Pb1aKi4/EHBckqdA==</source>
+  </file>
+  <file path="Logics/Common/XtraRegistration.php" generated-path="Logics.Common.XtraRegistration.html" hash="41397d39b91c5fae9b874c28ff6e4d39" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:45 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <interface namespace="Xtra\Logics\Common" line="17" package="Xtra\Logics\Common">
+      <name>XtraRegistration</name>
+      <full_name>\Xtra\Logics\Common\XtraRegistration</full_name>
+      <docblock line="17">
+        <description>Standard interface for registration</description>
+        <long-description></long-description>
+        <tag name="author" line="17" description="Ali Irawan (boylevantz@gmail.com)"/>
+        <tag name="package" line="17" description="Xtra\Logics\Common"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Logics\Common" line="26" package="Xtra\Logics\Common">
+        <name>register</name>
+        <full_name>\Xtra\Logics\Common\XtraRegistration::register()</full_name>
+        <docblock line="26">
+          <description>Register user</description>
+          <long-description></long-description>
+          <tag name="param" line="26" description="&lt;p&gt;name&lt;/p&gt;" type="" variable="$name"/>
+          <tag name="param" line="26" description="&lt;p&gt;email&lt;/p&gt;" type="" variable="$email"/>
+          <tag name="param" line="26" description="&lt;p&gt;password&lt;/p&gt;" type="" variable="$password"/>
+          <tag name="return" line="26" description="return the user object" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$password</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </interface>
+    <source>eJyNUcFOwzAMvecrfOCwVdMqJDgwkCgaFySQJgYSh13c1msDTVK5KWMg/h2na9k0ccCRnNh+yXt2rq7rslZxFCmIYM6EnnJIt7Ao66V3bKYh/9wQz+Cm0nDHuEELo9RtK3pH6z+TwqCuppkz4wC9lQdmcBrLugjxkzYhnp2dw+JBErFSFg01NWYEL55xde8KnTWruTPG2Us1aFl6tDlyDtp64nWArx0DU6Ebuea1swILyARbX0rpX/oSIX7D4i/uTt2eLQAeD9m+FIh18oJFsKsSQyvzGZJCwGjgJHQJwR0XKOiBzh+XamyajZOeh8MvgMm3bMHoD/mePvAldczg0lfKfI+Nu71u00pnsG5tFrT3YxPsaKds0uuYHJCOZfjq+wd71KQQ</source>
+  </file>
+  <file path="Core/XtraException.php" generated-path="Core.XtraException.html" hash="9cfcb44c9875ef10716e607b7dfc7881" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:53 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Xtra\Core" line="15" package="Xtra\Core">
+      <extends>\Exception</extends>
+      <name>XtraException</name>
+      <full_name>\Xtra\Core\XtraException</full_name>
+      <docblock line="15">
+        <description>Class XtraException is default root of exception</description>
+        <long-description></long-description>
+        <tag name="package" line="15" description="Xtra\Core"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core" line="24" package="Xtra\Core">
+        <name>__construct</name>
+        <full_name>\Xtra\Core\XtraException::__construct()</full_name>
+        <docblock line="24">
+          <description>XtraException constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="24" description="" type="string" variable="$message">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="24" description="" type="integer" variable="$code">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="24" description="" type="\Xtra\Core\Exception|null" variable="$previous">
+            <type>\Xtra\Core\Exception</type>
+            <type>null</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$message</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$code</name>
+          <default>0</default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$previous</name>
+          <default>null</default>
+          <type>\Xtra\Core\Exception|null</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core" line="35" package="Xtra\Core">
+        <name>__toString</name>
+        <full_name>\Xtra\Core\XtraException::__toString()</full_name>
+        <docblock line="35">
+          <description>Get the exception message</description>
+          <long-description></long-description>
+          <tag name="return" line="35" description="representation of the exception" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <source>eJyFUl2LEzEUfZ9fcVj60JbaUcQHZ/3YpYoICgvdBcHKkKa3bdhMEpJM3Vr7372Z7UxrFU0ehvt1zrln8uqtW7ssHw4zDDHxJCItMN/iZu2m0fpqnPJ3gXyBa63w0YvvwqA/t1tNG2Hij6tVJZQeS1sNUus7BijwLOf7MsW3qkpx8eI5bj5zIs8yIyoKTkjCl+jFbGI9XWadBC1CaArvHyS5qKyBCljQUtQ6wlsbYZegtphmrhjsXqxO8Boi+RcoeohkFgGzLpXtsgx8Gv50hmcj0poQfS3ZjXHbwYxeVOC8Miv0eJ/A/GdVZSJ60i7O8x30T1NrjZ7ztFG2Doe2vPm6eq6VxLI2slFRlp2Ofss3eoTHazwdHVGPgFxIDAPsHqHTljmCrQiNrNNsJe4JofYE2pDfxnVajI1nC9XK8Jtw3jryetsN8TJkYlH8Q9noqGVw2Qzu/zD7A0XENR3/KM7d9BRrb1qzPTFkYGbRNPNb+G36PyZGO21g+qemHAjKcvLpejotS4xxUeDrrscuhCdv0ib7bwXa+KBvPzMX7VL7X2bvA6M=</source>
+  </file>
+  <file path="Controllers/HomeController.php" generated-path="Controllers.HomeController.html" hash="e55a79648454be880ed3bb5f552400a4" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 10:44 AM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Controller">\Illuminate\Routing\Controller</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Controllers" line="17" package="Xtra\Controllers">
+      <extends>\Illuminate\Routing\Controller</extends>
+      <name>HomeController</name>
+      <full_name>\Xtra\Controllers\HomeController</full_name>
+      <docblock line="17">
+        <description>Handling home page</description>
+        <long-description></long-description>
+        <tag name="package" line="17" description="Xtra\Controllers"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="23" package="Xtra\Controllers">
+        <name>__construct</name>
+        <full_name>\Xtra\Controllers\HomeController::__construct()</full_name>
+        <docblock line="23">
+          <description>the home page is restricted
+HomeController constructor.</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="33" package="Xtra\Controllers">
+        <name>index</name>
+        <full_name>\Xtra\Controllers\HomeController::index()</full_name>
+        <docblock line="33">
+          <description>Default route handler</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <markers>
+      <todo line="35">Need to add some options of navbar, top navbar, bottom navbar, or sidebar</todo>
+    </markers>
+    <source>eJx9Uk1v2zAMvftX8DAgdtDEG9DL3GFr4GRNDm2K1AN6KGDINh0L04chyfnokP8+KkmToAVKA7RIPj1KT/zxq23aIO73A+hDapA5rKDYwmPTPjlt5NDn/1g0CYwEh5lha6YgLPRW4Iop93q7lIyLYall5KFjIkjgW0zfdx9nXPr4a3J9DaN7ysRBoJhE27IS4dkZ9pJq5YwWAo29CYLOIsyE6CRXRPWy0J3jankBIszxuFOmKkFFaLREaNkSffaWmP/S+gP5vnkpmLUwpQ3nCuDGoaosnFPBvwDI9o289cE1eO4D3IJB6wwvSa83yDvWUitCdCXJODxC4v2/7QrBS6g7VTquFeT5CRpGe8Shuzdeh1Ss+TLMn7PFKE/nD79nd/l0fj95HN1N8sXkKVvM0mwyjqKLbd6+uIbbwU/Jq0rgmhkMe6xzTS+6OcF2wcG/v+wYa9YJB4bUp2t7nUmTz+7AVYWbMDqfII4h7YxB5cQWtCLndAuKrQpmgK1oZlgh8BKezcdzeECaP6eBVRVYL7duPb8FXR83X10QXUGhndPyFGoDlldI6xOzQdcZBSuO67C3oZkY+GWSOJStoBGzQ/+sezcg5sGB6k2lXbD7D0eH9TQ=</source>
+  </file>
+  <file path="Logics/Auth/DefaultXtraAuthentication.php" generated-path="Logics.Auth.DefaultXtraAuthentication.html" hash="bd31fa0aabb46d1c3ac59f7831edc1bf" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:46 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="AuthenticationException">\Xtra\Core\Errors\AuthenticationException</namespace-alias>
+    <namespace-alias name="FeatureNotImplementedException">\Xtra\Core\Errors\FeatureNotImplementedException</namespace-alias>
+    <namespace-alias name="FeatureImplementCheck">\Xtra\Core\FeatureImplementCheck</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Logics\Auth" line="19" package="Xtra\Logics\Auth">
+      <extends/>
+      <implements>\Xtra\Logics\Auth\XtraAuthentication</implements>
+      <implements>\Xtra\Core\FeatureImplementCheck</implements>
+      <name>DefaultXtraAuthentication</name>
+      <full_name>\Xtra\Logics\Auth\DefaultXtraAuthentication</full_name>
+      <docblock line="19">
+        <description>efault implementation DefaultXtraAuthentication for XtraAuthentication</description>
+        <long-description></long-description>
+        <tag name="package" line="19" description="Xtra\Logics\Auth"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Logics\Auth" line="24" package="Xtra\Logics\Auth">
+        <name>checkFeatureImplemented</name>
+        <full_name>\Xtra\Logics\Auth\DefaultXtraAuthentication::checkFeatureImplemented()</full_name>
+        <docblock line="24">
+          <description>Implements the check whether feature implemented or not</description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\Xtra\Core\FeatureImplementCheck::checkFeatureImplemented()" refers="\Xtra\Core\FeatureImplementCheck::checkFeatureImplemented()" link="/classes/Xtra.Core.FeatureImplementCheck.html#method_checkFeatureImplemented"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Logics\Auth" line="37" package="Xtra\Logics\Auth">
+        <name>authenticate</name>
+        <full_name>\Xtra\Logics\Auth\DefaultXtraAuthentication::authenticate()</full_name>
+        <docblock line="37">
+          <description>Implements authenticate</description>
+          <long-description></long-description>
+          <tag name="param" line="37" description="" type="\Xtra\Logics\Auth\email" variable="$email">
+            <type>\Xtra\Logics\Auth\email</type>
+          </tag>
+          <tag name="param" line="37" description="" type="\Xtra\Logics\Auth\password" variable="$password">
+            <type>\Xtra\Logics\Auth\password</type>
+          </tag>
+          <tag name="return" line="37" description="" type="null">
+            <type>null</type>
+          </tag>
+          <tag name="inherited_from" description="\Xtra\Logics\Auth\XtraAuthentication::authenticate()" refers="\Xtra\Logics\Auth\XtraAuthentication::authenticate()" link="/classes/Xtra.Logics.Auth.XtraAuthentication.html#method_authenticate"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$email</name>
+          <default></default>
+          <type>\Xtra\Logics\Auth\email</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$password</name>
+          <default></default>
+          <type>\Xtra\Logics\Auth\password</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Logics\Auth" line="68" package="Xtra\Logics\Auth">
+        <name>getUser</name>
+        <full_name>\Xtra\Logics\Auth\DefaultXtraAuthentication::getUser()</full_name>
+        <docblock line="68">
+          <description>Get user data based on user_id</description>
+          <long-description></long-description>
+          <tag name="param" line="68" description="" type="\Xtra\Logics\Auth\unique" variable="$user_id">
+            <type>\Xtra\Logics\Auth\unique</type>
+          </tag>
+          <tag name="return" line="68" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+          <tag name="throws" line="68" description="" type="\Xtra\Core\Errors\AuthenticationException">
+            <type>\Xtra\Core\Errors\AuthenticationException</type>
+          </tag>
+          <tag name="inherited_from" description="\Xtra\Logics\Auth\XtraAuthentication::getUser()" refers="\Xtra\Logics\Auth\XtraAuthentication::getUser()" link="/classes/Xtra.Logics.Auth.XtraAuthentication.html#method_getUser"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$user_id</name>
+          <default></default>
+          <type>\Xtra\Logics\Auth\unique</type>
+        </argument>
+      </method>
+    </class>
+    <source>eJzVVG1r2zAQ/u5fcYOAnZAXBmOwZs1a2m0EtlLYBvtQKIp8jrXakifJTbvR/76T7Nhxmpjt42SwrdPdo7vnHuntuyItgtloFMAILjQyizGsHuE6Lb5YpfOps38zqE/gPBOw1GzDJEQr9ZjhPZP219k6ZyKbcpUPneslAZzAyxk9b9z8q8jd/OTVa7j+TIZZEEiWoykYR/huNbv5pNaCm5vz0qbzIChNbb5QGm/ea610tYbSCs6sUPL9A8fC/cwPe3+gIkqNV8ou8yLDnCIxPhpUezeuFynyO0qkpgQTVmYWxHbZZwCXldmhdHODRGl4bnZIZ1TyHVs/r9qzwjNmTA9uk4A5AD+Gg1UEvwOg4StxYwTLFoXigTsv2KRIEw1JhdFuRUqgaqSydfjMf4tylQkOSSm5z8yD7O+PcTT03lUKbogEIq5kItZRyCj9aaHVvYhRmyl1hN6xFveowyG8OIUQM/WzJCCathBu2FSrDUjcQH+fo+G8iXsKqncPHawlFLfL1DHNckAncBj4z95SQU3bKB3DYPvXOGik5CTIMst66dvdOKo2Gbdw+yQObCrMZHGU83nQunpJXdFhg1PoJT5XMWbhDl8DtfqB3FKc47kF2kV3oeRQu04WpCKNUegLCMc1XcPJIhHa2N1mOB1U0dRnR4/rcKfFsxl4/XqNdond7r613lYSPm3cbklCInmMGo9xlepk0VA670D5dLpw+5Jzo26nx+oCPAFmdKMcDXEl7kUEvbFUvrtw3cGj66SU3dIPopK0j0j8I1rwZMfMMlgx4w619KZbEe/JuZSCDl1V5O5qvWcuHrA1+oNo4Mjd3Kv5NVpXYbTd6P9ReSJk3Kb9L6LuCujvFLC8BFMgF4mgrh2WQ3sdHmlEFPZAhcODGnr6A0gqbj4=</source>
+  </file>
+  <file path="Core/XtraFrameworkProvider.php" generated-path="Core.XtraFrameworkProvider.html" hash="4bd9d922d61710accca66fb0770ae382" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 10:24 AM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="ServiceProvider">\Illuminate\Support\ServiceProvider</namespace-alias>
+    <namespace-alias name="DefaultXtraAuthentication">\Xtra\Logics\Auth\DefaultXtraAuthentication</namespace-alias>
+    <namespace-alias name="DefaultXtraRegistration">\Xtra\Logics\Common\DefaultXtraRegistration</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Core" line="20" package="Xtra\Core">
+      <extends>\Illuminate\Support\ServiceProvider</extends>
+      <name>XtraFrameworkProvider</name>
+      <full_name>\Xtra\Core\XtraFrameworkProvider</full_name>
+      <docblock line="20">
+        <description>Default XtraFrameworkProvider, this provider will be make the framework works</description>
+        <long-description></long-description>
+        <tag name="author" line="20" description="Ali Irawan (boylevantz@gmail.com)"/>
+        <tag name="package" line="20" description="Xtra\Core"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Xtra\Core" line="25" package="Xtra\Core">
+        <name>includeFiles</name>
+        <full_name>\Xtra\Core\XtraFrameworkProvider::includeFiles()</full_name>
+        <docblock line="25">
+          <description>Include required files</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core" line="40" package="Xtra\Core">
+        <name>boot</name>
+        <full_name>\Xtra\Core\XtraFrameworkProvider::boot()</full_name>
+        <docblock line="40">
+          <description>Bootstrap the application services.</description>
+          <long-description></long-description>
+          <tag name="return" line="40" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core" line="67" package="Xtra\Core">
+        <name>register</name>
+        <full_name>\Xtra\Core\XtraFrameworkProvider::register()</full_name>
+        <docblock line="67">
+          <description>Register the application services.</description>
+          <long-description></long-description>
+          <tag name="return" line="67" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Xtra\Core" line="80" package="Xtra\Core">
+        <name>registerServiceIntoContainer</name>
+        <full_name>\Xtra\Core\XtraFrameworkProvider::registerServiceIntoContainer()</full_name>
+        <docblock line="80">
+          <description>Registering service into servie container</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Xtra\Core" line="94" package="Xtra\Core">
+        <name>prepareMenuConfig</name>
+        <full_name>\Xtra\Core\XtraFrameworkProvider::prepareMenuConfig()</full_name>
+        <docblock line="94">
+          <description>Preparing the menu configuration</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <source>eJytVm1v0zAQ/p5fcR+Q2k5dA4gvrDBWOgaVNpi6DoEoitz02lpz7GA77ca0/87ZSbq0zWACPGmV7Xt5/Nxz1756ky7SINzbC2AP+hqZxSlMbuB8kV5YpZOOO780qA+gJzgMNFsxCc2JuhG4ZNL+PJonjItOrJKWMz2mAAfwLKS/l24/4onbPz14/gJ6Z3QSBoFkCZqUxQhfrGbjvtLYDYLMIAyEyBIuKcb4IktTpe34AvWSx3iu1ZJPUXe9nfc7VXMem3Evs4vxMc5YJqw7d3uUlsfMciV37fsqSZSsegxxzg195vYlGYWB9z3RBHml9FUJow12wQ2kxRZWXAiYICTsCukKYVZ6gPtnXMAjRsiUfhyPR8TPFZtXKPLcxYIZUw8J8NqinBrYYiy4DYCWf5VbezCQscimCBp/ZFxTvWdcoCluQ/9JD7MYOy3MMhk7YoDnXifOttmC2yB3cKHDdcgFihS16ThRlddFmkhJqngUHQ+GUdRphJ1OWFiHFa9GtzbuFGdc4iPDrnAS3juUEe+CbR7eKmVd3VNfMZamohANmJxC0ylMS48jjTbTEpaKTzf5yibkfE/WhEI3W/5qk6iRk41Xi1BsCrEXI2iV2bICtJ44ce0fOouhvznRKmnuvDH3CvMY/qmt7u+SLTmuDFhMUsEeSPfZmdRn896NNjSuibJ9t3s4nfYdRZqckd6XpEqlDzxFZuGPYiVnfA5xZqxK+E9P+jacwp7E9m195dYGsDxQ6CGtW85TAa8PizRRyuyi2aixabXXkb+3vcH2k85zEFzOgRoP7Q5pj0Lp6MvdPaxcLFVYxeUGHtgFVObUmDKNZyizvn9hk4zqJT4sC/HfFV6WeK3yLZCb46K7fZ2gnmOO3svtb0pcanF92lhHqWGtBFyMx4G0ivJbRmNC/5lAp4CCM5qEVuUbdBLLQ2yNT76kFttlqz55dUYUaKlW+4eGsgq0SjYh+jIa9qLTT+8H/ah3OfrQvo/dfELGrUoF3CrKKHEFD343VstyV8PY7zAM370fXNB2NPj08e+wVL91t5HU1+Lc695Vwqk5IfkXHZ7pygR5qAQ1XXMPk1rd//hxwb/2zk6pxq5dfI/+y2ByIDs3LBG+8cuIeddXLusHUcHC3S+MFulI</source>
+  </file>
+  <file path="helpers/helpers.php" generated-path="helpers.helpers.html" hash="44e31b1dbe511c707a4458a58f4f01cd" package="Default">
+    <docblock line="0">
+      <description>Index for functions included
+User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:54 PM</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <source>eJw9jrEKwjAYhPc+xU8n7dAg6GAVVOgSUBDROcQ00UD6pySpVp/eRKzc9N0d3K033b3LSFFkUADFRg6grAPVowjaogeNwvSNbFJ+8dJVsDMaqONPjjC52peRD47hvb21XJtS2HaaqjUPsoIZiVomPus2cbWYw/EQDZKNo3vtA1g1Dvlv+ANmUUhgrKYnxqDMyRAcZ/9zZfyerz6RUDtT</source>
+  </file>
+  <file path="Core/Errors/AuthenticationException.php" generated-path="Core.Errors.AuthenticationException.html" hash="e35a991df8a4d564af1de13c54f978e4" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:54 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="XtraException">\Xtra\Core\XtraException</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Core\Errors" line="19" package="Xtra\Core\Errors">
+      <extends>\Xtra\Core\XtraException</extends>
+      <name>AuthenticationException</name>
+      <full_name>\Xtra\Core\Errors\AuthenticationException</full_name>
+      <docblock line="19">
+        <description>Class AuthenticationException is type of exception for authentication</description>
+        <long-description></long-description>
+        <tag name="author" line="19" description="Ali Irawan (boylevantz@gmail.com)"/>
+        <tag name="package" line="19" description="Xtra\Core\Errors"/>
+        <tag name="inherited_from" description="\Xtra\Core\XtraException" refers="\Xtra\Core\XtraException" link="/classes/Xtra.Core.XtraException.html"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="27" package="Xtra\Core\Errors">
+        <name>__construct</name>
+        <full_name>\Xtra\Core\Errors\AuthenticationException::__construct()</full_name>
+        <docblock line="27">
+          <description>AuthenticationException constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="27" description="" type="string" variable="$message">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="27" description="" type="integer" variable="$code">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="27" description="" type="\Xtra\Core\Errors\Exception|null" variable="$previous">
+            <type>\Xtra\Core\Errors\Exception</type>
+            <type>null</type>
+          </tag>
+          <tag name="inherited_from" description="\Xtra\Core\XtraException::__construct()" refers="\Xtra\Core\XtraException::__construct()" link="/classes/Xtra.Core.XtraException.html#method___construct"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$message</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$code</name>
+          <default>100</default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$previous</name>
+          <default>null</default>
+          <type>\Xtra\Core\Errors\Exception|null</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="38" package="Xtra\Core\Errors">
+        <name>__toString</name>
+        <full_name>\Xtra\Core\Errors\AuthenticationException::__toString()</full_name>
+        <docblock line="38">
+          <description>Get the exception message</description>
+          <long-description></long-description>
+          <tag name="return" line="38" description="representation of the exception" type="string">
+            <type>string</type>
+          </tag>
+          <tag name="inherited_from" description="\Xtra\Core\XtraException::__toString()" refers="\Xtra\Core\XtraException::__toString()" link="/classes/Xtra.Core.XtraException.html#method___toString"/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="24" package="Xtra\Core">
+        <name>__construct</name>
+        <full_name>\Xtra\Core\XtraException::__construct()</full_name>
+        <docblock line="24">
+          <description>XtraException constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="24" description="" type="string" variable="$message">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="24" description="" type="integer" variable="$code">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="24" description="" type="\Xtra\Core\Exception|null" variable="$previous">
+            <type>\Xtra\Core\Exception</type>
+            <type>null</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$message</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$code</name>
+          <default>0</default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$previous</name>
+          <default>null</default>
+          <type>\Xtra\Core\Exception|null</type>
+        </argument>
+        <inherited_from>\Xtra\Core\XtraException</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Errors" line="35" package="Xtra\Core">
+        <name>__toString</name>
+        <full_name>\Xtra\Core\XtraException::__toString()</full_name>
+        <docblock line="35">
+          <description>Get the exception message</description>
+          <long-description></long-description>
+          <tag name="return" line="35" description="representation of the exception" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <inherited_from>\Xtra\Core\XtraException</inherited_from>
+      </method>
+    </class>
+    <source>eJyNUl1r2zAUfdevuJQ8JCGLW9ge6q5bQlbGYINCNhgswyjKTSJqS+JKzup1+e+9cmPnY6yd/WDr3HuPzjnS2/du7UTS7wvow4RQBlzAvILbtZsGS8Uw4t88UgrjXMMnkr+kge7cVjlupAm/R6tC6nyobNGLrR+YIIWLhN/LuP6qi7hO37yG2y8MJEIYWaB3UiF8DyRnE0s4uyGy5K+EEKU/xOPfzb1CF7Q1XG6E5tJ7GJdhjSZoJWO1bQPtIVQOwS4BW3BpCeTRQCQaRYgr/+VtxKLv5Opv3bUv9awmvA9oFh6ODIkHAfzUpuLT/+e4ssYHKhUfybDpZTkkC2BcmxV0OFTP4k6q2gToKLs4xVvqP6bMc+g4wo22pd+1JfXXlfNcK1iWRtUqsqzV0W32GzzRwzVcnJ8P9rx7Si7FPXrw5LZ2nIC3BUIt7BAt5B2CLwkBN0hVWEdrfJ4crV4ZvpqOrEPKq3aI7XBgafqMtsFeS++qHtyK0+A/YgCO/uDCnOZJGEoyTdyETOl55/qg4lU7mn4hxmCnNU33MJTdBlk2+TyeTrMMhnCWwo+HDqfgX72LTrY/U2jWO33bmTlrTG0fAShJNhw=</source>
+  </file>
+  <file path="Core/XtraFrameworkModuleProvider.php" generated-path="Core.XtraFrameworkModuleProvider.html" hash="edd66f17e11e91f88e0c266bb366bb93" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 10:24 AM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="ServiceProvider">\Illuminate\Support\ServiceProvider</namespace-alias>
+    <namespace-alias name="DefaultXtraAuthentication">\Xtra\Logics\Auth\DefaultXtraAuthentication</namespace-alias>
+    <class final="false" abstract="true" namespace="Xtra\Core" line="18" package="Xtra\Core">
+      <extends>\Illuminate\Support\ServiceProvider</extends>
+      <name>XtraFrameworkModuleProvider</name>
+      <full_name>\Xtra\Core\XtraFrameworkModuleProvider</full_name>
+      <docblock line="18">
+        <description>Class XtraFrameworkModuleProvider currently is not done yet. Don't use it</description>
+        <long-description></long-description>
+        <tag name="package" line="18" description="Xtra\Core"/>
+      </docblock>
+      <method final="false" abstract="true" static="false" visibility="public" namespace="Xtra\Core" line="23" package="Xtra\Core">
+        <name>getViewNamespace</name>
+        <full_name>\Xtra\Core\XtraFrameworkModuleProvider::getViewNamespace()</full_name>
+        <docblock line="23">
+          <description>Get the view namespace</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="true" static="false" visibility="public" namespace="Xtra\Core" line="29" package="Xtra\Core">
+        <name>registerServices</name>
+        <full_name>\Xtra\Core\XtraFrameworkModuleProvider::registerServices()</full_name>
+        <docblock line="29">
+          <description>Implement to register services</description>
+          <long-description></long-description>
+          <tag name="return" line="29" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="true" static="false" visibility="public" namespace="Xtra\Core" line="35" package="Xtra\Core">
+        <name>currentDirectory</name>
+        <full_name>\Xtra\Core\XtraFrameworkModuleProvider::currentDirectory()</full_name>
+        <docblock line="35">
+          <description>Return the current directory</description>
+          <long-description></long-description>
+          <tag name="return" line="35" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core" line="42" package="Xtra\Core">
+        <name>boot</name>
+        <full_name>\Xtra\Core\XtraFrameworkModuleProvider::boot()</full_name>
+        <docblock line="42">
+          <description>Bootstrap the application services.</description>
+          <long-description></long-description>
+          <tag name="return" line="42" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core" line="63" package="Xtra\Core">
+        <name>register</name>
+        <full_name>\Xtra\Core\XtraFrameworkModuleProvider::register()</full_name>
+        <docblock line="63">
+          <description>Register the application services.</description>
+          <long-description></long-description>
+          <tag name="return" line="63" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <source>eJytU91v0zAQf89fcQ9I/RAkgHihRdCyamgSm6Z1IB4qITe5ttYcO9jndgXtf+ecOhlqC5sA96Gxfff78N29eVetqiTr9xPow4lFQVjAfAuXq2pKxpZpOP/k0A5grCScWbERGrpzs1W4Fpq+j5alkCrNTdkLoRMGGMCLjH+vw/5almH/fPDyFYzP+SRLEi1KdJXIEb6QFbMTY3GYJN4hnCnlS6kZYzb1VWUszaZo1zLHS2vWskA7rOPqvI9mKXM3G3tazSa4EF5ROA971CRzQdJoBm7MKeFcnXlqWcDG2JtzU3jVQkPureVMtQXpQBuCwmiELVIKE6M7BIFaUgAbsfwbsfzFQW1NzB3vc4L8QTK8JdSFgz1/yY8EeNWaw+rDByRgR7CWuIH26eJtVv9Xfq5kDi37wus8mIcl0mdOu2iyuj1+jz38s7JSWLJvIAMWl9IRy3M7Wa6JGlkkbzWU8haLx5E3WNGhO0Z+tUMN/uLrQyEt5tx623+gjliTBuoY9XtjKORVNbuoKhVbpvWextB9IWsjj+po6ecM3e3VV7ty7qjbT4vfPEv7ajTPwBNaSffs7aHktJOlaVbgQmpMeUo7w78CWKGq0LqIcC8ng2vOg41UCpQRBfAIl6FsxlNTd14RPURc1Ten1pTdBzh3GDVlePk/sYa2dkDIXSh+wxta+HG06Iy3XLmsRu08jfGHY9C7f8tYw7sjvRln4b/3RzMZBz0S9R6bnKjx7ic5i8H0</source>
+  </file>
+  <file path="Controllers/RegisterController.php" generated-path="Controllers.RegisterController.html" hash="354352371d76e6fd25cd77a9130b95d9" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 10:44 AM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Request">\Illuminate\Http\Request</namespace-alias>
+    <namespace-alias name="Controller">\Illuminate\Routing\Controller</namespace-alias>
+    <namespace-alias name="Validator">\Illuminate\Support\Facades\Validator</namespace-alias>
+    <namespace-alias name="XtraAuthentication">\Xtra\Logics\Auth\XtraAuthentication</namespace-alias>
+    <namespace-alias name="ValidatorUtil">\Xtra\Util\ValidatorUtil</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Controllers" line="21" package="Xtra\Controllers">
+      <extends>\Illuminate\Routing\Controller</extends>
+      <name>RegisterController</name>
+      <full_name>\Xtra\Controllers\RegisterController</full_name>
+      <docblock line="21">
+        <description>Handling register page</description>
+        <long-description></long-description>
+        <tag name="package" line="21" description="Xtra\Controllers"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="27" package="Xtra\Controllers">
+        <name>__construct</name>
+        <full_name>\Xtra\Controllers\RegisterController::__construct()</full_name>
+        <docblock line="27">
+          <description>the home page is restricted
+HomeController constructor.</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="35" package="Xtra\Controllers">
+        <name>index</name>
+        <full_name>\Xtra\Controllers\RegisterController::index()</full_name>
+        <docblock line="35">
+          <description>Default route handler</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Controllers" line="43" package="Xtra\Controllers">
+        <name>register</name>
+        <full_name>\Xtra\Controllers\RegisterController::register()</full_name>
+        <docblock line="43">
+          <description>Handles the registration process</description>
+          <long-description></long-description>
+          <tag name="param" line="43" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Xtra\Controllers" line="74" package="Xtra\Controllers">
+        <name>createValidator</name>
+        <full_name>\Xtra\Controllers\RegisterController::createValidator()</full_name>
+        <docblock line="74">
+          <description>Create a validator for login process</description>
+          <long-description></long-description>
+          <tag name="param" line="74" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Xtra\Controllers" line="89" package="Xtra\Controllers">
+        <name>getRegisterHandler</name>
+        <full_name>\Xtra\Controllers\RegisterController::getRegisterHandler()</full_name>
+        <docblock line="89">
+          <description>Get the registration handler</description>
+          <long-description></long-description>
+          <tag name="see" line="89" description="" link="\Xtra\Logics\Auth\XtraAuthentication"/>
+        </docblock>
+      </method>
+    </class>
+    <source>eJydVWtv2zoM/e5fwQEFbBdJcwfsy9w1a9D1tgG6dUjTYcA8BKrNJMJk2ZPkpnv0v4/y2/E67F4FSWzpkCIPD6VXr7Nt5kwODx04hDOFzGAMd9/g/Ta7MalKjuz8rUYVwExwmCu2YxK8u/SbwHsmzffTTcK4OIrSxLfQN+QggOcT+ry070ue2Pd/ghcvYPaWZiaOI1mCOmMRwkejWHiWSqNSIVDpY8fJNcJciDzhklyFl8Zk4QK/5qjN8f7iIs0Nl5uOhwHkJs+yVJnwXxaxGHX4gQkeM8qsRBYBXKUbHulwlpttaCfsA0rDI2Z4KjvAW8NF68G+UcAVd5dMxoKCAYUbrg0qyNgG7coppfqFngfZFmxEgmkNi8qoXQV8MChjDe2U88MBGsWGdhwCxQnbNMFiL+CaNtdG8YiKWEMuabnjNUolIfKI4j+qIJPiP8vvBI9gncvIZg2rVQP1/ALxwyn+Hp39KN7gmuXCgKJyUDyWCAr2T865jPHB88t87FBociXhnuPOcx+Ip7F9DAKDSSaojvqoptX1j58Io6gA6oKUEq2KAkKm0gi1rnFUD8USqEQFB6p8+GPA9e7evpVfsWLHwX0tDTiBA7PlejyNipZqNOM1hlDl0TdcUQEtlSfQk1kQVAicyyw3Xsdi1PPYBsPX4A38+tBS3qFdYcwVUqGLCnqrj8vFbLW4vl2erxbnF/Ob5fnC93uGdoynO26250qlSne2egpYRt7J+rHDnD0SLGlVKuPpBo3n2lm3yxPas2aIK6Z7wIyaapeqeIitVyy8wU8mcJWyuJCOoNNAFr+Rbh3WAlgVC219yWfdu6X+VDfF1qyp656n8bSRVsnCqMpy1CbRjZSvvYHTZycgcyH8fm3bvDWJn0Ts+ePpmk6bredqw0yu3RG4dfCwYxp0HtlGWefiWZfN/6qUQYmHvVreNMCgbZk1fUvu/0+/Kn5vHTYNO+i7fXN4snMboyBI2Bf0WiKZEJ4/gk89ZkqVwskUXAskemJ31EeU+uxBfhZzP3PJyXdAN4zSoxK2Z9votW9Oh/Oaq6S31+euUKqCtZk9dWxeoBkemf1DHE41IoR/cVnuFSU1aO+itiy/axcYXAPhLMsq8qGU2NX1xfyskthitpxfv2uugcdfEoKsmA==</source>
+  </file>
+  <file path="Logics/Common/DefaultXtraRegistration.php" generated-path="Logics.Common.DefaultXtraRegistration.html" hash="21145a3f03fb34053212b65cb2ce9a3d" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/2/19
+Time: 9:06 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="FeatureNotImplementedException">\Xtra\Core\Errors\FeatureNotImplementedException</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Logics\Common" line="17" package="Xtra\Logics\Common">
+      <extends/>
+      <implements>\Xtra\Logics\Common\XtraRegistration</implements>
+      <name>DefaultXtraRegistration</name>
+      <full_name>\Xtra\Logics\Common\DefaultXtraRegistration</full_name>
+      <docblock line="17">
+        <description>Default implementation DefaultXtraRegistration for XtraRegistration</description>
+        <long-description></long-description>
+        <tag name="package" line="17" description="Xtra\Logics\Common"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Logics\Common" line="27" package="Xtra\Logics\Common">
+        <name>register</name>
+        <full_name>\Xtra\Logics\Common\DefaultXtraRegistration::register()</full_name>
+        <docblock line="27">
+          <description>Register user</description>
+          <long-description></long-description>
+          <tag name="param" line="27" description="&lt;p&gt;name&lt;/p&gt;" type="" variable="$name"/>
+          <tag name="param" line="27" description="&lt;p&gt;email&lt;/p&gt;" type="" variable="$email"/>
+          <tag name="param" line="27" description="&lt;p&gt;password&lt;/p&gt;" type="" variable="$password"/>
+          <tag name="return" line="27" description="return the user object" type="mixed">
+            <type>mixed</type>
+          </tag>
+          <tag name="inherited_from" description="\Xtra\Logics\Common\XtraRegistration::register()" refers="\Xtra\Logics\Common\XtraRegistration::register()" link="/classes/Xtra.Logics.Common.XtraRegistration.html#method_register"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$email</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$password</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Xtra\Logics\Common" line="39" package="Xtra\Logics\Common">
+        <name>performRegister</name>
+        <full_name>\Xtra\Logics\Common\DefaultXtraRegistration::performRegister()</full_name>
+        <docblock line="39">
+          <description>Perform registration to database</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Xtra\Logics\Common" line="46" package="Xtra\Logics\Common">
+        <name>sendActivationEmail</name>
+        <full_name>\Xtra\Logics\Common\DefaultXtraRegistration::sendActivationEmail()</full_name>
+        <docblock line="46">
+          <description>Send the activation email</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <markers>
+      <todo line="29">Implement register() method.</todo>
+    </markers>
+    <source>eJx9kU1P4zAQhu/+FXPg0FZss+xhJVrEh9oiIe1CBay0h16cZNp4iT80digf4r+v7TqpaIEcknhm/M4z856cmcqwbDBgMIAJIXdYQv4M88rcOU1yGOJ/LNIILmoBV8TXXEEv1881PnLlXs5Xkot6WGjZD6VTLzCCo+xHdnQczvdC+vPx6PtPmP/2gYwxxSVawwuEv4744pdeicIuJlpKrcaMNTYlJppwMSPSZBeXHqwhvNbuSpoaJSrPOXsq0DgRb6UJprjkTe1AtFU85NtwkL3FlbD+G+NLTbAbDDLnHu+Brz4ijDMUNbf2U9Wuud0Xf2UM/BNxwzOATRoJ/ODUBj0AcQkHYVcQXrsJDFuH+N5NGc+21lRC+9MVEPolKpDiyZucDq7C2Bl0/g8Ll2qz+DVNXosClo0q4mCUUHuR6zBRHG5b9uO1141IGDOD+5vpzQg617YafZDoKl0Ou2pXkV6DwjV8bXevP2bdpQNXCfvt1CB5M+Vtpz7erbCoygs/x2M0YhbI26q3PVPmG7lEm3x1GkrueM4tvl8TBVHc7mkPJrm+3+fOQ0ULeEf2ztRPGnw4S9fk7T+jNDPI</source>
+  </file>
+  <file path="config/xtra-framework.php" generated-path="config.xtra-framework.html" hash="0cb22016457948dbf71be3778f852c6d" package="Default">
+    <docblock line="0">
+      <description>This is xtra-framework config file</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <source>eJxlkk2L2zAQhu/5FS+5LAQX37dfh4UeW9gtlFKWRbbHtqisESMpaf59JdlxnKwwZjQ8886H5tNXN7od6sNhBxzwc9Qe6fsXRH3oRU10YvmLlm2vB/TaUMbqHYRCFIs/6ZrOHJ7PAU9RhGwwZ7BNv4Y5+KTmsqwTPuqOugocRhI8vbxgzeJx0sagIaguMTAqkKyyPyyBe4Rc4FGZSI9X6QtUz8a+9X6Pz1+wX4l9tXtf6W+OaJVN3U1Tqhgsq9mQ4RP65Om0V43RdkipCcIxkF8VviWAVDti4i4a8lBHpU3iCedF3FPItoBPdg6/r3aJLRUv8yx+w4O2cx91eY/ZUd0iSfGOyZ4tNPJEW6Tct4DQoH2a9RZafQv4ehlgkXtzaqCl4KtQXePXSOVhA8PFAKuOjZI8WMthk3H2F4Egkapbke9zVDg7qtDertNDYPeQV8lH51gCde9k33Jg0S7wnfgzpYXQbQqcU2MiZX153NwZcmdZX65cXgMVE2GDblX2RE/iS0E3Y7xEbBqbh7fD68f/l8D93w==</source>
+  </file>
+  <file path="Core/Modular/MenuContext.php" generated-path="Core.Modular.MenuContext.html" hash="81ac661c027ec9271ff544786a693e46" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/2/19
+Time: 7:34 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Xtra\Core\Modular" line="15" package="Xtra\Core\Modular">
+      <extends/>
+      <name>MenuContext</name>
+      <full_name>\Xtra\Core\Modular\MenuContext</full_name>
+      <docblock line="15">
+        <description>Class MenuContext will manage all menus in applications</description>
+        <long-description></long-description>
+        <tag name="package" line="15" description="Xtra\Core\Modular"/>
+      </docblock>
+      <property static="false" visibility="private" namespace="Xtra\Core\Modular" line="21" package="Xtra\Core\Modular">
+        <name>$menu_list</name>
+        <full_name>\Xtra\Core\Modular\MenuContext::menu_list</full_name>
+        <default></default>
+        <docblock line="21">
+          <description>Array menu holder</description>
+          <long-description></long-description>
+          <tag name="var" line="21" description="" type="array" variable="">
+            <type>array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Modular" line="26" package="Xtra\Core\Modular">
+        <name>__construct</name>
+        <full_name>\Xtra\Core\Modular\MenuContext::__construct()</full_name>
+        <docblock line="26">
+          <description>MenuContext constructor.</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Modular" line="40" package="Xtra\Core\Modular">
+        <name>add</name>
+        <full_name>\Xtra\Core\Modular\MenuContext::add()</full_name>
+        <docblock line="40">
+          <description>Adding menu to menu context</description>
+          <long-description></long-description>
+          <tag name="param" line="40" description="&lt;p&gt;by default there are &quot;top-menu&quot;, &quot;user-menu&quot;&lt;/p&gt;" type="" variable="$parent"/>
+          <tag name="param" line="40" description="" type="" variable="$menu_id"/>
+          <tag name="param" line="40" description="" type="" variable="$menu_name"/>
+          <tag name="param" line="40" description="" type="" variable="$order_by"/>
+          <tag name="param" line="40" description="" type="array" variable="$permissions">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$parent</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$menu_id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$menu_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$order_by</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$permissions</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+      </method>
+    </class>
+    <source>eJx9UttqGzEQfd+vGIwfbLPxkguUOm1i477kwRBIAoWmmPFK8YrqhqR1sgn+94y0tutuQgXL7Fx05pzRfLu2lc2K0SiDEcwdx8AZrBq4rexdME6NY/zBczeBmRRw4/AZNQxWppF8gzq8TtcKhRyXRg1j6Q8CmMBpcVacfo3+vVDkf5mcX8DtggJFlmlU3FssOfwMDh/nxvHHhWG1RHeZHahI9B4WXNdzowN/CfAspASFGtccMP5SzoPQgNZKUWIQRvt4dUrYf2LVB/jUv+wiZ28Z0EmN4xnBzDlsUgOojGTc7RPTDTrAmN1FimStExvSDf14ZSmFDySkg3kspSSmwdUlDXj8L1C9IinwVOsyyoHl8lA6GKaKlmvCLuBGiyBQileaiAaubGiO2dHph0r4k6sDL/gOv35fpvT2A8UZY0KvW93BtLbczWg/AIsOFfTJcB3iojD+hLUMECruiAZ9vWDsSbzcy6FX0+q0ThcicRLs03BckW7COHqI5arpxJNeIsSdEt63O/CfiSJjgz39/EAiP+qb/22Vf4IOQ3qD3QC37+st+JQ=</source>
+  </file>
+  <file path="web/define.php" generated-path="web.define.html" hash="17c0e49bf78cdd757625358ab621bbf0" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/2/19
+Time: 9:06 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <constant namespace="" line="13" package="Default">
+      <name>_XTRA_CONFIG_NAME</name>
+      <full_name>\_XTRA_CONFIG_NAME</full_name>
+      <value>'xtra-framework'</value>
+      <docblock line="13">
+        <description>This file will list all defined property</description>
+        <long-description></long-description>
+        <tag name="package" line="13" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="16" package="Default">
+      <name>_XTRA_CONFIG_CSS</name>
+      <full_name>\_XTRA_CONFIG_CSS</full_name>
+      <value>'xtra-framework.css'</value>
+      <docblock line="16">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="16" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="17" package="Default">
+      <name>_XTRA_CONFIG_CSS_BOOTSTRAP</name>
+      <full_name>\_XTRA_CONFIG_CSS_BOOTSTRAP</full_name>
+      <value>'bootstrap'</value>
+      <docblock line="17">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="17" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="20" package="Default">
+      <name>_XTRA_CONFIG_MODULE_LOGIN</name>
+      <full_name>\_XTRA_CONFIG_MODULE_LOGIN</full_name>
+      <value>'xtra-framework.modules.login'</value>
+      <docblock line="20">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="20" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="21" package="Default">
+      <name>_XTRA_CONFIG_MODULE_LOGOUT</name>
+      <full_name>\_XTRA_CONFIG_MODULE_LOGOUT</full_name>
+      <value>'xtra-framework.modules.logout'</value>
+      <docblock line="21">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="21" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="22" package="Default">
+      <name>_XTRA_CONFIG_MODULE_HOME</name>
+      <full_name>\_XTRA_CONFIG_MODULE_HOME</full_name>
+      <value>'xtra-framework.modules.home'</value>
+      <docblock line="22">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="22" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="23" package="Default">
+      <name>_XTRA_CONFIG_MODULE_REGISTER</name>
+      <full_name>\_XTRA_CONFIG_MODULE_REGISTER</full_name>
+      <value>'xtra-framework.modules.register'</value>
+      <docblock line="23">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="23" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="26" package="Default">
+      <name>_XTRA_CONFIG_HOMEPAGE_RESTRICTED</name>
+      <full_name>\_XTRA_CONFIG_HOMEPAGE_RESTRICTED</full_name>
+      <value>'xtra-framework.home_page.restricted'</value>
+      <docblock line="26">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="26" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="27" package="Default">
+      <name>_XTRA_CONFIG_HOMEPAGE_NAVBAR</name>
+      <full_name>\_XTRA_CONFIG_HOMEPAGE_NAVBAR</full_name>
+      <value>'xtra-framework.home_page.navbar'</value>
+      <docblock line="27">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="27" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="28" package="Default">
+      <name>_XTRA_CONFIG_HOMEPAGE_NAVBAR_TYPE</name>
+      <full_name>\_XTRA_CONFIG_HOMEPAGE_NAVBAR_TYPE</full_name>
+      <value>'xtra-framework.home_page.navbar_type'</value>
+      <docblock line="28">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="28" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="31" package="Default">
+      <name>_XTRA_ERROR_GROUP_LOGIN</name>
+      <full_name>\_XTRA_ERROR_GROUP_LOGIN</full_name>
+      <value>'login'</value>
+      <docblock line="31">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="31" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="34" package="Default">
+      <name>_XTRA_ROUTE_DEFAULT_LARAVEL_LOGIN</name>
+      <full_name>\_XTRA_ROUTE_DEFAULT_LARAVEL_LOGIN</full_name>
+      <value>'login'</value>
+      <docblock line="34">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="34" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="35" package="Default">
+      <name>_XTRA_ROUTE_LOGIN</name>
+      <full_name>\_XTRA_ROUTE_LOGIN</full_name>
+      <value>'xtra-login-page'</value>
+      <docblock line="35">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="35" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="36" package="Default">
+      <name>_XTRA_ROUTE_LOGOUT</name>
+      <full_name>\_XTRA_ROUTE_LOGOUT</full_name>
+      <value>'xtra-logout-page'</value>
+      <docblock line="36">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="36" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="37" package="Default">
+      <name>_XTRA_ROUTE_HOME</name>
+      <full_name>\_XTRA_ROUTE_HOME</full_name>
+      <value>'xtra-home-page'</value>
+      <docblock line="37">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="37" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="38" package="Default">
+      <name>_XTRA_ROUTE_REGISTER</name>
+      <full_name>\_XTRA_ROUTE_REGISTER</full_name>
+      <value>'xtra-register-page'</value>
+      <docblock line="38">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="38" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="41" package="Default">
+      <name>_XTRA_LOGIC_AUTH</name>
+      <full_name>\_XTRA_LOGIC_AUTH</full_name>
+      <value>'Xtra\Authentication'</value>
+      <docblock line="41">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="41" description="Default"/>
+      </docblock>
+    </constant>
+    <constant namespace="" line="42" package="Default">
+      <name>_XTRA_LOGIC_REGISTRATION</name>
+      <full_name>\_XTRA_LOGIC_REGISTRATION</full_name>
+      <value>'Xtra\Registration'</value>
+      <docblock line="42">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="42" description="Default"/>
+      </docblock>
+    </constant>
+    <source>eJyNlFFvmzAUhd/5FX5LG61h3cOkZpM2l7gUKQnImKiTJllO4gRrgJFxmma/fjYstCMk3Rv2vec7V9dHfP1WpqXjDocOGAJPcab5GiwPIErLWEuVj+x9UnE1BjATIFBszwpwtZSHjD+zQv/+vs2ZyEYrmV/b1okBjMGt+8m9vbNnInJzvht//AyimblwnaMZSUUFNiLjYC+yDGSi0oCZjzXfiMIMUSpZcqUPtch1wRPBEHjh/CHwEwxJEM6dpvVqQG2NNjU6hzM0+DB40YrdbBTL+V6qX4PrL46FND1gVVX9Yi+OT7Qj02315wT0PgxJbO4iI11KqSsjLzuOuVzvMn7GdRZOkimi09AP5qf2f6WjTG5FcXaQV0aYkIsQudPvUR7Dnh22jFTm/D0CRn4QE4TPUxTfmifnqrMoCwcl2/J+vJ0sgr41MCsPPIImpxaWQS3DmJjHECsT6rMDt8Q5XNzDnoFfaQV7XjL1vyRKfkQ9W+ziqD6U/LgEhHGIgY/DJOp41BVaV9qgtImwUlMhqCOq7+gEPcBkSugUYrhA01N5n+ifMNadN3boC+1vctek7KLgbcTsSi42d9N0zE4rsguwE3sgRngReAjY30CHVTdQmJBHw3kynJ9wp1NeaLFiWsieVTSKxr355xyVuJ5AtTrnD4tVqpA=</source>
+  </file>
+  <file path="Util/ValidatorUtil.php" generated-path="Util.ValidatorUtil.html" hash="99641db204219bd3e568c9fcf5b1f5c7" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:27 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Request">\Illuminate\Http\Request</namespace-alias>
+    <namespace-alias name="Validator">\Illuminate\Validation\Validator</namespace-alias>
+    <class final="false" abstract="false" namespace="Xtra\Util" line="19" package="Xtra\Util">
+      <extends/>
+      <name>ValidatorUtil</name>
+      <full_name>\Xtra\Util\ValidatorUtil</full_name>
+      <docblock line="19">
+        <description>Class ValidatorUtil is util class for validation</description>
+        <long-description></long-description>
+        <tag name="author" line="19" description="Ali Irawan (boylevantz@gmail.com)"/>
+        <tag name="package" line="19" description="Xtra\Util"/>
+      </docblock>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="Xtra\Util" line="29" package="Xtra\Util">
+        <name>validateInput</name>
+        <full_name>\Xtra\Util\ValidatorUtil::validateInput()</full_name>
+        <docblock line="29">
+          <description>Test the validation rule for the request given</description>
+          <long-description></long-description>
+          <tag name="param" line="29" description="&lt;p&gt;pass the validator object&lt;/p&gt;" type="\Illuminate\Validation\Validator" variable="$validator">
+            <type>\Illuminate\Validation\Validator</type>
+          </tag>
+          <tag name="param" line="29" description="&lt;p&gt;request to be checked&lt;/p&gt;" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="29" description="true if validation passed" type="boolean">
+            <type>boolean</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$validator</name>
+          <default></default>
+          <type>\Illuminate\Validation\Validator</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+    </class>
+    <source>eJyNUb1OwzAQ3v0UN3RoK2gFC6JFUAQDHZAqoIihi+NeG1PHDvY5qKC+O3aapBFlwBnOvrvv5y5XN3mas2G/z6APdxY54RKSLczS/JmMzQYxP3doR3CrJEwt/+QauonZKiy4pq/JOuNSDYTJerH1PhCM4GwYvsv4fpFZfI/OL2D2GBJDxjTP0OVcILyR5Ys5STVmzDuEqVI+kzpQLB6I8sUTfnh0NP5dfOVKLjlJo+ursYGinkJx56ApRH6QDnyMoqytjIWi4YiYCfeUhuy/ZpwE8xu+bvkvBxPHuuybMQindBZPWEgYCCjFlgGwXmFpKubtfmhYywJ1harBQdny7KABnaK55lG9RRxSJnlHQb/A1VKhUwvVkQwkCCJFscFlA7JI3mpIjFEYtkLWI8hV230UbgDDMuY+UVKAo9AhYOW1KDsrEE517gm6f85xcmywB1DtMZ7K0AFxer0Kf8d1e+N9047tfgBnkeqD</source>
+  </file>
+  <file path="web/routes/common.php" generated-path="web.routes.common.html" hash="d682718b66b34e3874a336320dfce87a" package="Default">
+    <docblock line="0">
+      <description>These routes is for common page such as Login Page, Register Page, Maintenance Page, Guest Page, Home page after Login, etc.</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <markers>
+      <todo line="36">the xtra-tenant route, should can be configured</todo>
+      <todo line="39">the xtra-role route, should can be configured</todo>
+      <todo line="42">the xtra-user route, should can be configured</todo>
+      <todo line="45">the xtra-user-group route, should can be configured</todo>
+    </markers>
+    <source>eJytlN1um0AQhe95irmotNjC5T5t0loxIZZwqCiuIiUVIjD8SLCL2EWJFOXdu4uxTZJi47Rc2MtozuGbI5iv36qs0jRzOtVgCn6GHKFmjUAOOYeE1RCxsmQUqjBF4E2UQcjBYWlO4YcsGeBhmnOBdXe7CnMqkIY0wq5iN8hFd75mJW6swkRpWiMDUESf5fNNTfPUs8/OUslQ6XekzOO4wMewRnJ+AXfkER/IbwMIDUvkVRghAVkn97eiDu8vGRU1KwqsuWpKGhqJnFF98qxpIK88AT1iNMlTPbj1vXlw6d5cLe1g5S7WjhU4rr28mUzguW1W16emLuAcjmq+aDvJlh+FrtQGaSfck33PaYxPZDK7UCN0np679vdeb6wqxoe8YtZWDrr9D7KFdTVfO37gzL35L8t5RfoyNlvpdHq4SvQukeERCpbKlqE89mbjoK/dlXUicis5FLr6AEZl3jmNp/Use/nTt7wTiXeyQ9Tbb3wUec9x+FX+i2PdlcaYdpGYJvjuwgWRITzJFTBrN4/YbDADeMaaIoYopPCAXQhNjfFW25uTmD09MYjfHgbnJb1uPlMLjWwDfMckDfDjREoteTz5d4RGdR5jabhcuh9mUWrJsuYH3gSy6xzDMmsX/b8RbTw6Lludj8C1/T26F/nzB3/YL9A=</source>
+  </file>
+  <file path="Core/Modular/Menu.php" generated-path="Core.Modular.Menu.html" hash="29b7ec3f5d0a1547bef4820352d9bd61" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/2/19
+Time: 7:35 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <interface namespace="Xtra\Core\Modular" line="15" package="Xtra\Core\Modular">
+      <name>Menu</name>
+      <full_name>\Xtra\Core\Modular\Menu</full_name>
+      <docblock line="15">
+        <description>Interface Menu, implementing menu behavior, each menu can have sub menus</description>
+        <long-description></long-description>
+        <tag name="package" line="15" description="Xtra\Core\Modular"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Modular" line="21" package="Xtra\Core\Modular">
+        <name>getId</name>
+        <full_name>\Xtra\Core\Modular\Menu::getId()</full_name>
+        <docblock line="21">
+          <description>Menu unique ID</description>
+          <long-description></long-description>
+          <tag name="return" line="21" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Modular" line="27" package="Xtra\Core\Modular">
+        <name>getName</name>
+        <full_name>\Xtra\Core\Modular\Menu::getName()</full_name>
+        <docblock line="27">
+          <description>Menu readable name</description>
+          <long-description></long-description>
+          <tag name="return" line="27" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core\Modular" line="37" package="Xtra\Core\Modular">
+        <name>add</name>
+        <full_name>\Xtra\Core\Modular\Menu::add()</full_name>
+        <docblock line="37">
+          <description>Add child menu</description>
+          <long-description></long-description>
+          <tag name="param" line="37" description="&lt;p&gt;menu unique ID&lt;/p&gt;" type="" variable="$menu_id"/>
+          <tag name="param" line="37" description="&lt;p&gt;menu display name&lt;/p&gt;" type="" variable="$menu_name"/>
+          <tag name="param" line="37" description="&lt;p&gt;order by, optional default is 0&lt;/p&gt;" type="" variable="$order_by"/>
+          <tag name="param" line="37" description="&lt;p&gt;array of permissions for example ['permission1','permission2']&lt;/p&gt;" type="array" variable="$permissions">
+            <type>array</type>
+          </tag>
+          <tag name="return" line="37" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$menu_id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$menu_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$order_by</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$permissions</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+      </method>
+    </interface>
+    <source>eJydUk1PGzEQve+vmANSQrRiG6oKkVZqEFxySIXUVkIChGbXs1mr/urYpgTEf6+9CRDQXsAXe56f37x58rfvrnNFNZkUMIFTJgwkoF7Deed+Bsv6IOO/PfEMTpSEBeM/NDCu7VrRLZpwP19plOqgsXo/U8+SwAym1WE1Pc71L6lTfTT7/AXOlwmoisKgJu+wIbgIjFenlulqaUVUyF+LJysLE4jbTFqSiSVI7RRpMkGaFaQ9Qk0d3krLJRA23QZrkreEEvhY94jPWvPU7A+uBvr1huSrVsVDAWn1NvKa9ChEI/9GgsXZEzpnCpENaHlHYgtW/e5irWQDbTRNkNbAisJCjPfTbEPCKXKBtSLIsXxI/Ed6OCR/IgQ0nVSiT+JZ2iGjhr2M3cjN3cB0u6zsbMMT0juF69det1TLgvgmfZ3+kP5QCdZlj6hAUItRBZAePr15h8xJcM8Ra+l9ovstZFvYBVvLQHeYvwFcjl5upqNypzocXb8/QxRi/BxIuTN0+TJVOWQ0h/74H0x0/0Q=</source>
+  </file>
+  <file path="Logics/Auth/XtraAuthentication.php" generated-path="Logics.Auth.XtraAuthentication.html" hash="b5b6463c98c6020c5e10c98733794e14" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 1:45 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <interface namespace="Xtra\Logics\Auth" line="17" package="Xtra\Logics\Auth">
+      <name>XtraAuthentication</name>
+      <full_name>\Xtra\Logics\Auth\XtraAuthentication</full_name>
+      <docblock line="17">
+        <description>Standard interface for authentication</description>
+        <long-description></long-description>
+        <tag name="author" line="17" description="Ali Irawan (boylevantz@gmail.com)"/>
+        <tag name="package" line="17" description="Xtra\Logics\Auth"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Logics\Auth" line="25" package="Xtra\Logics\Auth">
+        <name>authenticate</name>
+        <full_name>\Xtra\Logics\Auth\XtraAuthentication::authenticate()</full_name>
+        <docblock line="25">
+          <description>This function should return boolean value whether the username(email) and password given is passed the authentication</description>
+          <long-description></long-description>
+          <tag name="param" line="25" description="&lt;p&gt;email&lt;/p&gt;" type="" variable="$email"/>
+          <tag name="param" line="25" description="&lt;p&gt;password&lt;/p&gt;" type="" variable="$password"/>
+          <tag name="return" line="25" description="return object if passed the authentication, otherwise return null" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$email</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$password</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Logics\Auth" line="32" package="Xtra\Logics\Auth">
+        <name>getUser</name>
+        <full_name>\Xtra\Logics\Auth\XtraAuthentication::getUser()</full_name>
+        <docblock line="32">
+          <description>Get the user object model based on the given user_id</description>
+          <long-description></long-description>
+          <tag name="param" line="32" description="&lt;p&gt;unique user id&lt;/p&gt;" type="" variable="$user_id"/>
+          <tag name="return" line="32" description="An user object, define in auth (providers.users.model)" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$user_id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </interface>
+    <source>eJyNU0tr20AQvutXzCEH2xibQnOIE6hNCqXQQiAN9BAII2kkTbvaVfdhNwn5751RLNt1SMgKJO3Mp+8xki4+dU2XzSeTDCZw6QkjlZDfw1XTXUfn25nWbwL5BawMw1ePG7Qwyt29oTXa+LCsW2QzK1w7VuhnIVjAh7kcZ7r/wa3uFx9P4eq7FOZZZrGl0GFB8DN6vP3mai7C7SrF5jwbnFxHtCX6EthG8pWCK+cBBUQ2coGRnRWgYpdalea7/C1F+DfWL7V7b3s1ba/+V3vMQFZvUJdkazhAlWyhbQiNS6YETzF5C7lzhsTJGk0i2DQkVB7kBEmGqSMYkRobgwSFDkPYOIlb85osCK1W5E3oA8ehn8UliMcWTnoW6M/HrR3rcLMDbE22/Jd2jl3+i4oIXL2uPQWnMTYcaHjKJjPozvtrl3LDxX4sBwwEo63f6YG5sbz1o8F+obgb1eCrdSUZyFGdCa22n4eloDsuj8Nvy5As/0lbKn5lAit7KDWFkiq2JN9e7x5GnXdrLsmHmcLCrPcyfjN2TVH/Gk08ONGgT/8AwgYdSA==</source>
+  </file>
+  <file path="Core/FeatureImplementCheck.php" generated-path="Core.FeatureImplementCheck.html" hash="fbb1f0d55d4b49a20a098f51f3077f59" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: Ali Irawan (boylevantz@gmail.com)
+Date: 1/1/19
+Time: 2:26 PM</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <interface namespace="Xtra\Core" line="18" package="Xtra\Core">
+      <name>FeatureImplementCheck</name>
+      <full_name>\Xtra\Core\FeatureImplementCheck</full_name>
+      <docblock line="18">
+        <description>Interface FeatureImplementCheck used to check whether some features is not implemented yet,
+the method should throw FeatureNotImplementedException</description>
+        <long-description></long-description>
+        <tag name="see" line="18" description="" link="\Xtra\Core\Errors\FeatureNotImplementedException"/>
+        <tag name="package" line="18" description="Xtra\Core"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Xtra\Core" line="25" package="Xtra\Core">
+        <name>checkFeatureImplemented</name>
+        <full_name>\Xtra\Core\FeatureImplementCheck::checkFeatureImplemented()</full_name>
+        <docblock line="25">
+          <description>Check if the feature is implemented or not</description>
+          <long-description></long-description>
+          <tag name="throws" line="25" description="" type="\Xtra\Core\FeatureNotImplementedException">
+            <type>\Xtra\Core\FeatureNotImplementedException</type>
+          </tag>
+        </docblock>
+      </method>
+    </interface>
+    <source>eJyFkU1LAzEQhu/5FXNsi3SxB8FWcKVW2INSUMHDXtJ0tgndfJBkrVX8705SV4sHmxzCTOadvM/k6tpJx4rRiMEI5h55xDWs9rCU7jFar8cp/xzQT+GmVVB5vuMGBiu7b/GVm/hebjRX7VhYPUylt9RgCucF7csUPylN8WQ6uYDlPSUKxgzXGBwXCC/R83puPc5Yb6EyEX2TLu/IS+ex0q5FjSbOJYotdIH8RQsiRzuJUaKHYDVCcxAEUAGMjaB6JSn2GM9Se6oGTRq7hiBt11Iv6e2uf+zBxupXtXgT6KKyhpRJXAZEqH9M1wvvrQ/1SS2URLvlmyPgPAn1Pyv7YAxo5cmkRR+UqVWTOb55E+4xqvWJvleUmS+cBMzVRT5dt2qVgKYzIt0dRv3XIa4Hwxn7/AJtx75F</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="Xtra" full_name="Xtra">
+    <package name="Controllers" full_name="Xtra\Controllers"/>
+    <package name="Core" full_name="Xtra\Core">
+      <package name="Errors" full_name="Xtra\Core\Errors"/>
+      <package name="Modular" full_name="Xtra\Core\Modular"/>
+    </package>
+    <package name="Logics" full_name="Xtra\Logics">
+      <package name="Auth" full_name="Xtra\Logics\Auth"/>
+      <package name="Common" full_name="Xtra\Logics\Common"/>
+    </package>
+    <package name="Util" full_name="Xtra\Util"/>
+  </package>
+  <package name="global" full_name="global"/>
+  <namespace name="global" full_name="global"/>
+  <namespace name="Xtra" full_name="Xtra">
+    <namespace name="Controllers" full_name="Xtra\Controllers"/>
+    <namespace name="Core" full_name="Xtra\Core">
+      <namespace name="Errors" full_name="Xtra\Core\Errors"/>
+      <namespace name="Modular" full_name="Xtra\Core\Modular"/>
+    </namespace>
+    <namespace name="Logics" full_name="Xtra\Logics">
+      <namespace name="Auth" full_name="Xtra\Logics\Auth"/>
+      <namespace name="Common" full_name="Xtra\Logics\Common"/>
+    </namespace>
+    <namespace name="Util" full_name="Xtra\Util"/>
+  </namespace>
+  <deprecated count="0"/>
+</project>
