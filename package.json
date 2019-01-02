@@ -1,0 +1,32 @@
+{
+  "name": "xtra-docs",
+  "version": "1.0.0",
+  "description": "xtra framework class documentation",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-irawan/xtra-docs.git"
+  },
+  "keywords": [
+    "xtra",
+    "laravel",
+    "php",
+    "frameworks",
+    "docs"
+  ],
+  "author": "Ali Irawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ali-irawan/xtra-docs/issues"
+  },
+  "homepage": "https://github.com/ali-irawan/xtra-docs#readme"
+}
